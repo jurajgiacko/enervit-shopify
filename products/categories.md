@@ -1,24 +1,27 @@
 # Enervit CZ — Produktové rozloženie
 
-> Primárne rozdelenie: **podľa tréningovej fázy** (Before → During → After → Between)
-> Sekundárne: **podľa typu produktu** + **podľa brandu** (Enervit / C2:1 PRO / Pure-PRO)
+> **Primárne rozdelenie: podľa typu produktu** (Gely, Tyčinky, Nápoje, Amino, Proteíny…)
+> Sekundárne: **podľa tréningovej fázy** (Before → During → After → Between)
+> Terciárne: **podľa brandu** (Enervit Sport / C2:1 PRO / Pure-PRO)
 > Dáta z reálneho XML exportu (155 produktov, ~44 Shopify produktov)
+>
+> **Validácia navigácie (12.3.2026):** Analýza 8 konkurenčných značiek (Nutrend, Nduranz, SiS, MyProtein, GU Energy Labs, Maurten, enervit.com) — 100% zhoda: všetky používajú Product Type ako primárnu navigáciu.
 
 ---
 
 ## Navigácia — hlavné menu
 
 ```
-PODLE FÁZE                   PODLE TYPU                 ZNAČKY
-├── Před tréninkem (8)       ├── Gely & želé (7)        ├── Enervit Sport
-├── Během tréninku (18)      ├── Tyčinky (7)            ├── C2:1 PRO
-├── Po tréninku (3)          ├── Nápoje (5)             └── Pure-PRO
-└── Mezi tréninky (9)        ├── Aminokyseliny (6)
-                              ├── Proteíny (2)          SPECIÁLNÍ
-                              ├── Regenerácia (3)       ├── Novinky
-                              ├── Minerály (4)          ├── Outlet
-                              ├── Vitamíny (4)          └── Sady & kity
-                              └── Příslušenství (4)
+PODLE TYPU (primární)        PODLE FÁZE (sekundární)    ZNAČKY (terciární)
+├── Gely & želé (7)          ├── Před tréninkem (8)     ├── Enervit Sport
+├── Tyčinky (7)              ├── Během tréninku (18)    ├── C2:1 PRO
+├── Nápoje (5)               ├── Po tréninku (3)        └── Pure-PRO
+├── Aminokyseliny (6)        └── Mezi tréninky (9)
+├── Proteíny (2)                                        SPECIÁLNÍ
+├── Regenerácia (3)                                     ├── Novinky
+├── Minerály (4)                                        ├── Outlet
+├── Vitamíny (4)                                        └── Sady & kity
+└── Příslušenství (4)
 ```
 
 ---
@@ -123,10 +126,28 @@ Competition Bar              Electrolytes Boost        Magic Cherry
 
 ---
 
+## Rozhodnutia o navigácii (12.3.2026)
+
+### Analýza konkurencie — navigačné vzory
+
+| Značka | Trh | Primárna navigácia | Sekundárna |
+|---|---|---|---|
+| Nutrend | CZ/EU | Product Type | Activity |
+| Nduranz | EU | Product Type | Use case |
+| SiS (Science in Sport) | UK/EU | Product Type | Goal |
+| MyProtein | UK/Global | Product Type | Goal |
+| GU Energy Labs | US | Product Type | Brand Line + Function |
+| Maurten | US/EU | Product Type | Bundles by activity |
+| Enervit.com | IT/Global | Product Type | Brand Line |
+
+**Záver:** 100% zhoda — Product Type je industry standard.
+
+---
+
 ## Otvorené otázky
 
-1. **Protein Deal** — na enervit.com je to separátny brand "The Protein Deal". Zaradiť pod Enervit Sport alebo vytvoriť 4. brand?
-2. **Combo sety** (Isotonic+Sport Drink, Magnesium+Salt Caps, After Sport+R2) — ponechať ako Shopify Bundles?
-3. **Nulový sklad** — Carbo Jelly, Carbo Gel pomeranč, C2:1 se sodíkem, Isocarb sáček — vyradiť z nového e-shopu?
+1. ~~**Protein Deal**~~ → ROZHODNUTÉ: pod Enervit Sport (12.3.)
+2. ~~**Combo sety**~~ → ROZHODNUTÉ: zrušiť, riešiť neskôr cez Shopify Bundles (12.3.)
+3. ~~**Nulový sklad**~~ → ROZHODNUTÉ: ponechať, budú naskladnené (12.3.)
 4. **Expirované produkty** — Protein Bar 50% bílá čoko (exp. 4/26) → rovno do outletu?
-5. **Vitamíny** (Multivitamin, Vitamin C, Ferro, Maltodextrin) — ponechať alebo vyradiť? Nie sú typický supplement pre športovcov
+5. ~~**Vitamíny**~~ → ROZHODNUTÉ: len Enervit branded, MaxiVita/Vitar vyradené (12.3.)

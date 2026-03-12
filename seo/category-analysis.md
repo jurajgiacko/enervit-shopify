@@ -1,17 +1,19 @@
 # Enervit CZ — Kategórie, navigácia & SEO
 
-> Referencia: enervit.com používa maticovú navigáciu — produkty sú prístupné cez **typ produktu** aj cez **brand**
-> Rovnaký princíp aplikujeme na enervit.cz
+> **Primárna navigácia: Product Type** (gely, tyčinky, nápoje…) — validované analýzou 8 konkurenčných značiek
+> Sekundárna: tréningová fáza | Terciárna: brand
+> Produkt žije vo viacerých kolekciách súčasne (typ + fáza + brand)
 
 ---
 
 ## Strategické rozhodnutia
 
+- **Navigačná hierarchia (12.3.2026):** Product Type (primárna) → Training Phase (sekundárna) → Brand (terciárna)
+  - Validované: Nutrend, Nduranz, SiS, MyProtein, GU Energy Labs, Maurten, enervit.com — všetky používajú Product Type ako primárnu navigáciu
 - **3 produktové rady** vizuálne oddelené: Enervit Sport / C2:1 PRO / Pure-PRO
 - **Obsahový web sa zlúči s e-shopom** → enervit.cz = e-shop
 - **B2C + B2B na jednej platforme**, rovnaký sortiment, odlišný ceník
-- **Inšpirácia:** enervit.com — emócie, lifestyle, dual navigácia (typ + brand)
-- **Dual navigácia:** Produkt žije v kategórii podľa typu (gely) AJ v kolekcii podľa rady (C2:1 PRO)
+- **Multi-collection:** Produkt žije v kategórii podľa typu (gely) AJ v kolekcii podľa rady (C2:1 PRO) AJ vo fázovej kolekcii (během tréninku)
 
 ---
 
@@ -20,16 +22,16 @@
 ### Hlavné menu (mega menu)
 
 ```
-SPORT                        ZNAČKY                    SPECIÁLNE
-├── Energetické gely         ├── Enervit Sport         ├── Novinky
-├── Energetické tyčinky      ├── C2:1 PRO              ├── Outlet / Výpredaj
-├── Nápoje & elektrolyty     └── Pure-PRO              ├── Variety Kity
-├── Aminokyseliny & BCAA                               └── Doping-free
-├── Proteíny                 PODLE FÁZE
-├── Regenerace               ├── Před tréninkem
-└── Doplňky & příslušenství  ├── Během tréninku
-                              ├── Po tréninku
-                              └── Mezi tréninky
+PODLE TYPU (primární)        PODLE FÁZE (sekundární)    ZNAČKY (terciární)
+├── Energetické gely         ├── Před tréninkem         ├── Enervit Sport
+├── Energetické tyčinky      ├── Během tréninku         ├── C2:1 PRO
+├── Nápoje & elektrolyty     ├── Po tréninku            └── Pure-PRO
+├── Aminokyseliny & BCAA     └── Mezi tréninky
+├── Proteíny                                            SPECIÁLNÍ
+├── Regenerace                                          ├── Novinky
+└── Doplňky & příslušenství                             ├── Outlet / Výpredaj
+                                                        ├── Variety Kity
+                                                        └── Doping-free
 ```
 
 ### Footer menu

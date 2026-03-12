@@ -64,3 +64,4 @@
 - [x] Rozhodnutie: Vitamíny = len Enervit branded, MaxiVita/Vitar vyradené (12.3.)
 - [x] Rozhodnutie: Poukážky → Shopify Gift Cards (12.3.)
 - [x] Rozhodnutie: Výživové stratégie/plány → blog/content, nie produkty (12.3.)
+- [x] Navigácia: Product Type = primárna, Phase = sekundárna, Brand = terciárna (12.3.) — validované 8 konkurenčnými značkami (Nutrend, Nduranz, SiS, MyProtein, GU Energy, Maurten, enervit.com)
