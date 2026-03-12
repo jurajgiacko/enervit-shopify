@@ -284,34 +284,76 @@ const PRODUCTS = [
 ];
 
 const CATEGORIES = {
-  phase: [
-    {id:"pred",name:"Pred treninkem",handle:"pred-treninkem",icon:"\u26A1",seoTitle:"Sportovni vyziva pred treninkem | Enervit",desc:"Priprava na vykon -- gely, tycinky a pre-workout produkty."},
-    {id:"behem",name:"Behem treninku",handle:"behem-treninku",icon:"\uD83D\uDD25",seoTitle:"Sportovni vyziva behem treninku | Enervit",desc:"Energie a hydratace behem sportu -- gely, napoje, elektrolyty."},
-    {id:"po",name:"Po treninku",handle:"po-treninku",icon:"\uD83D\uDCA7",seoTitle:"Regenerace po treninku | Enervit",desc:"Obnova a regenerace -- recovery drinky a antioxidanty."},
-    {id:"mezi",name:"Mezi treninky",handle:"mezi-treninky",icon:"\uD83C\uDFCB\uFE0F",seoTitle:"Denni sportovni vyziva | Enervit",desc:"Proteiny, aminokyseliny a kreatin pro kazdodenni doplneni."}
-  ],
   type: [
-    {id:"gel",name:"Gely & zele",handle:"gely",icon:"\uD83D\uDC89",match:["Gel"]},
-    {id:"tyc",name:"Tycinky",handle:"tycinky",icon:"\uD83C\uDF6B",match:["Tycinka"]},
-    {id:"nap",name:"Napoje & elektrolyty",handle:"napoje",icon:"\uD83E\uDD64",match:["Napoj","Elektrolyt"]},
-    {id:"ami",name:"Aminokyseliny & kreatin",handle:"aminokyseliny",icon:"\uD83D\uDC8A",match:["Amino"]},
-    {id:"pro",name:"Proteiny",handle:"proteiny",icon:"\uD83E\uDD5B",match:["Protein"]},
-    {id:"rec",name:"Regenerace",handle:"regenerace",icon:"\u267B\uFE0F",match:["Recovery"]},
-    {id:"min",name:"Mineraly & tablety",handle:"mineraly",icon:"\uD83D\uDC8E",match:["Mineraly","Tablety"]},
-    {id:"vit",name:"Vitaminy & doplnky",handle:"vitaminy",icon:"\uD83E\uDEE7",match:["Vitamin","Doplnek"]},
-    {id:"acc",name:"Prislusenstvi",handle:"doplnky",icon:"\uD83E\uDDF4",match:["Prislusenstvi"]},
-    {id:"sady",name:"Sady & kity",handle:"variety-kity",icon:"\uD83D\uDCE6",match:["Sada"]}
+    {id:"gel",name:"Energeticke gely",handle:"gely",icon:"\uD83D\uDC89",match:["Gel"],
+      seoTitle:"Energeticke gely | Enervit — Sportovni vyziva",seoH1:"Energeticke gely",
+      seoDesc:"Energeticke gely Enervit a C2:1 PRO pro bezce a cyklisty. Rychla energie behem treninku a zavodu. Enervit Gel, Liquid Gel, Carbo Gel C2:1. Registrujte se a ziskejte 10% slevu."},
+    {id:"tyc",name:"Energeticke tycinky",handle:"tycinky",icon:"\uD83C\uDF6B",match:["Tycinka"],
+      seoTitle:"Energeticke a proteinove tycinky | Enervit",seoH1:"Energeticke tycinky",
+      seoDesc:"Sportovni tycinky Enervit, C2:1 PRO a Protein Deal. Energie pred treninkem, behem i po nem. Competition Bar, Performance Bar, Carbo Bar, Protein Bar a Protein Deal."},
+    {id:"nap",name:"Napoje & elektrolyty",handle:"napoje",icon:"\uD83E\uDD64",match:["Napoj","Elektrolyt"],
+      seoTitle:"Sportovni napoje a elektrolyty | Enervit",seoH1:"Sportovni napoje a elektrolyty",
+      seoDesc:"Izotonicky napoj, Isocarb C2:1, Sport Drink a Electrolytes Boost. Hydratace a doplneni mineralu pri sportu. Doprava zdarma od 1500 Kc."},
+    {id:"ami",name:"Aminokyseliny & kreatin",handle:"aminokyseliny",icon:"\uD83D\uDC8A",match:["Amino"],
+      seoTitle:"Aminokyseliny, BCAA a kreatin | Pure-PRO by Enervit",seoH1:"Aminokyseliny a kreatin",
+      seoDesc:"BCAA 2:1:1, BCAA 4:1:1, EAA, kreatin a L-glutamin od Pure-PRO. Podpora svalove regenerace a rustu pro sportovce."},
+    {id:"pro",name:"Proteiny",handle:"proteiny",icon:"\uD83E\uDD5B",match:["Protein"],
+      seoTitle:"Proteinove prasky | Pure-PRO by Enervit",seoH1:"Proteiny",
+      seoDesc:"100% Whey Protein a 100% Plant Protein od Pure-PRO. Premiovy syrovatkovy a rostlinny protein pro sportovce. Kakao a vanilka."},
+    {id:"rec",name:"Regenerace",handle:"regenerace",icon:"\u267B\uFE0F",match:["Recovery"],
+      seoTitle:"Regenerace po treninku | Enervit Sport",seoH1:"Regenerace po treninku",
+      seoDesc:"Recovery drinky a antioxidanty Enervit. After Sport Drink R1, R2 Recovery Drink a Magic Cherry pro rychlejsi zotaveni po sportu."},
+    {id:"min",name:"Mineraly & tablety",handle:"mineraly",icon:"\uD83D\uDC8E",match:["Mineraly","Tablety"],
+      seoTitle:"Mineraly, Salt Caps a tablety | Enervit",seoH1:"Mineraly a tablety",
+      seoDesc:"Magnesium Sport, Salt Caps a Carbo Tablets. Doplneni mineralu a elektrolytu behem narocneho treninku a zavodu."},
+    {id:"vit",name:"Vitaminy & doplnky",handle:"vitaminy",icon:"\uD83E\uDEE7",match:["Vitamin","Doplnek"],
+      seoTitle:"Vitaminy a doplnky vyzivy | Enervit",seoH1:"Vitaminy a doplnky",
+      seoDesc:"Multivitamin, Vitamin C, Ferro a Maltodextrin Fructose od Enervit. Doplnky vyzivy pro aktivni sportovce."},
+    {id:"acc",name:"Prislusenstvi",handle:"doplnky",icon:"\uD83E\uDDF4",match:["Prislusenstvi"],
+      seoTitle:"Sportovni lahve a prislusenstvi | Enervit",seoH1:"Prislusenstvi",
+      seoDesc:"Sportovni lahve Enervit a C2:1 Elite, shakery a nosice. Doplnky pro pohodlne pouzivani sportovni vyzivy."},
+    {id:"sady",name:"Sady & kity",handle:"variety-kity",icon:"\uD83D\uDCE6",match:["Sada"],
+      seoTitle:"Vyhodne sady sportovni vyzivy | Enervit",seoH1:"Sady a kity",
+      seoDesc:"Vyhodne sady a kity Enervit a C2:1 PRO. Kompletni sportovni vyziva v jednom baleni se slevou."}
+  ],
+  phase: [
+    {id:"pred",name:"Pred treninkem",handle:"pred-treninkem",icon:"\u26A1",
+      seoTitle:"Sportovni vyziva pred treninkem | Enervit",seoH1:"Vyziva pred treninkem",
+      seoDesc:"Pripravte se na vykon s Enervit. PRE Sport, Competition Bar, Performance Bar a Carbo Flow. Energie a sacharidy pred treninkem ci zavodem."},
+    {id:"behem",name:"Behem treninku",handle:"behem-treninku",icon:"\uD83D\uDD25",
+      seoTitle:"Energie behem treninku a zavodu | Enervit",seoH1:"Vyziva behem treninku",
+      seoDesc:"Energeticke gely, izotonicke napoje a elektrolyty pro vykon behem sportu. Enervit Gel, Carbo Gel C2:1, Isotonic Drink a Salt Caps."},
+    {id:"po",name:"Po treninku",handle:"po-treninku",icon:"\uD83D\uDCA7",
+      seoTitle:"Regenerace a recovery po treninku | Enervit",seoH1:"Vyziva po treninku",
+      seoDesc:"Obnova a regenerace po sportu. After Sport Drink R1, R2 Recovery Drink a Magic Cherry pro rychlejsi zotaveni svalu."},
+    {id:"mezi",name:"Mezi treninky",handle:"mezi-treninky",icon:"\uD83C\uDFCB\uFE0F",
+      seoTitle:"Denni sportovni vyziva a doplnky | Enervit",seoH1:"Vyziva mezi treninky",
+      seoDesc:"Proteiny, BCAA, kreatin a proteinove tycinky pro kazdodenni doplneni. Pure-PRO Whey Protein, aminokyseliny a Protein Deal."}
   ],
   brand: [
-    {id:"enervit",name:"Enervit Sport",handle:"enervit-sport",color:"#2563b3"},
-    {id:"c21",name:"C2:1 PRO",handle:"c2-1-pro",color:"#dc2626"},
-    {id:"purepro",name:"Pure-PRO",handle:"pure-pro",color:"#16a34a"},
-    {id:"proteindeal",name:"The Protein Deal",handle:"protein-deal",color:"#f59e0b"}
+    {id:"enervit",name:"Enervit Sport",handle:"enervit-sport",color:"#2563b3",
+      seoTitle:"Enervit Sport — Sportovni vyziva pro vytrvalostni sporty",seoH1:"Enervit Sport",
+      seoDesc:"Kompletni rada sportovni vyzivy Enervit Sport. Gely, tycinky, izotoniky a recovery drinky pro bezce, cyklisty a triatlonisty. Italska kvalita od roku 1976."},
+    {id:"c21",name:"C2:1 PRO",handle:"c2-1-pro",color:"#dc2626",
+      seoTitle:"C2:1 PRO — Premiova endurance vyziva | Enervit",seoH1:"C2:1 PRO",
+      seoDesc:"Premiova rada C2:1 PRO s patentovanym pomerem sacharidu 2:1 (maltodextrin:fruktoza). Carbo Gel, Isocarb, Carbo Bar a Carbo Tablets pro maximalni absorpci energie."},
+    {id:"purepro",name:"Pure-PRO",handle:"pure-pro",color:"#16a34a",
+      seoTitle:"Pure-PRO — Proteiny a aminokyseliny | Enervit",seoH1:"Pure-PRO",
+      seoDesc:"Premiove proteiny a aminokyseliny Pure-PRO by Enervit. Whey Protein, Plant Protein, BCAA, EAA, kreatin a glutamin pro svalovou regeneraci."},
+    {id:"proteindeal",name:"The Protein Deal",handle:"protein-deal",color:"#f59e0b",
+      seoTitle:"The Protein Deal — Proteinove tycinky | Enervit",seoH1:"The Protein Deal",
+      seoDesc:"Proteinove tycinky The Protein Deal od Enervit. Vysoko proteinovy snack v 5 prichutich. Brownie, bila cokolada, double choco, karamel a liskovy orisek."}
   ],
   special: [
-    {id:"novinky",name:"Novinky",handle:"novinky",icon:"\uD83C\uDD95"},
-    {id:"outlet",name:"Outlet / Vyprodej",handle:"outlet",icon:"\uD83C\uDFF7\uFE0F"},
-    {id:"doping",name:"Doping-free",handle:"doping-free",icon:"\u2705"}
+    {id:"novinky",name:"Novinky",handle:"novinky",icon:"\uD83C\uDD95",
+      seoTitle:"Novinky ve sportovni vyzive | Enervit",seoH1:"Novinky",
+      seoDesc:"Nejnovejsi produkty sportovni vyzivy Enervit. Novinky v radach Enervit Sport, C2:1 PRO, Pure-PRO a The Protein Deal."},
+    {id:"outlet",name:"Outlet / Vyprodej",handle:"outlet",icon:"\uD83C\uDFF7\uFE0F",
+      seoTitle:"Outlet sportovni vyzivy | Enervit — Slevy az 50%",seoH1:"Outlet / Vyprodej",
+      seoDesc:"Zvyhodnena sportovni vyziva Enervit. Produkty pred datem spotreby a starsi baleni za outlet ceny. Stejna kvalita, nizsi cena."},
+    {id:"doping",name:"Doping-free",handle:"doping-free",icon:"\u2705",
+      seoTitle:"Doping-free sportovni vyziva | Enervit",seoH1:"Doping-free produkty",
+      seoDesc:"Sportovni vyziva Enervit s certifikaci Doping-free. Bezpecna vyziva pro profesionalni sportovce v souladu s WADA predpisy."}
   ]
 };
 
@@ -610,33 +652,41 @@ function renderTreeView() {
   let html = '<div class="info-panel"><h3>Strom Shopify kolekci</h3><p style="margin-bottom:12px">Vizualni hierarchie vsech kolekci s handles pro Shopify.</p>';
 
   html += '<div class="tree-root">';
-  html += '<div class="tree-label" style="font-weight:700;font-size:14px">Enervit Store</div>';
+  html += '<div class="tree-label" style="font-weight:700;font-size:14px">Enervit Store — enervit.cz</div>';
 
-  // Phase
-  html += '<div class="tree-node"><div class="tree-label" style="font-weight:600">Podle faze treninku</div>';
-  CATEGORIES.phase.forEach(c => {
-    const cnt = getProductCountForCategory('phase', c.id);
-    html += `<div class="tree-node"><div class="tree-label">${c.icon} ${c.name} <span class="count" style="margin-left:6px">${cnt}</span></div>
-      <div class="tree-handle">/${c.handle}</div>
-      <div class="tree-seo">${c.seoTitle}</div></div>`;
-  });
-  html += '</div>';
-
-  // Type
-  html += '<div class="tree-node"><div class="tree-label" style="font-weight:600">Podle typu produktu</div>';
+  // Type (PRIMARY)
+  html += '<div class="tree-node"><div class="tree-label" style="font-weight:600;background:var(--accent-bg);border-color:var(--accent)">Podle typu produktu (primarni navigace)</div>';
   CATEGORIES.type.forEach(c => {
     const cnt = getProductCountForCategory('type', c.id);
     html += `<div class="tree-node"><div class="tree-label">${c.icon} ${c.name} <span class="count" style="margin-left:6px">${cnt}</span></div>
-      <div class="tree-handle">/${c.handle}</div></div>`;
+      <div class="tree-handle">/collections/${c.handle}</div>
+      <div class="tree-seo"><b>Title:</b> ${c.seoTitle}</div>
+      <div class="tree-seo"><b>H1:</b> ${c.seoH1}</div>
+      <div class="tree-seo"><b>Desc:</b> ${c.seoDesc}</div></div>`;
   });
   html += '</div>';
 
-  // Brand
-  html += '<div class="tree-node"><div class="tree-label" style="font-weight:600">Znacky</div>';
+  // Phase (SECONDARY)
+  html += '<div class="tree-node"><div class="tree-label" style="font-weight:600">Podle faze treninku (sekundarni)</div>';
+  CATEGORIES.phase.forEach(c => {
+    const cnt = getProductCountForCategory('phase', c.id);
+    html += `<div class="tree-node"><div class="tree-label">${c.icon} ${c.name} <span class="count" style="margin-left:6px">${cnt}</span></div>
+      <div class="tree-handle">/collections/${c.handle}</div>
+      <div class="tree-seo"><b>Title:</b> ${c.seoTitle}</div>
+      <div class="tree-seo"><b>H1:</b> ${c.seoH1}</div>
+      <div class="tree-seo"><b>Desc:</b> ${c.seoDesc}</div></div>`;
+  });
+  html += '</div>';
+
+  // Brand (TERTIARY)
+  html += '<div class="tree-node"><div class="tree-label" style="font-weight:600">Znacky (terciarni)</div>';
   CATEGORIES.brand.forEach(c => {
     const cnt = getProductCountForCategory('brand', c.id);
     html += `<div class="tree-node"><div class="tree-label"><span class="stat-dot" style="background:${c.color};margin-right:4px"></span> ${c.name} <span class="count" style="margin-left:6px">${cnt}</span></div>
-      <div class="tree-handle">/${c.handle}</div></div>`;
+      <div class="tree-handle">/collections/${c.handle}</div>
+      <div class="tree-seo"><b>Title:</b> ${c.seoTitle}</div>
+      <div class="tree-seo"><b>H1:</b> ${c.seoH1}</div>
+      <div class="tree-seo"><b>Desc:</b> ${c.seoDesc}</div></div>`;
   });
   html += '</div>';
 
@@ -644,7 +694,10 @@ function renderTreeView() {
   html += '<div class="tree-node"><div class="tree-label" style="font-weight:600">Specialni kolekce</div>';
   CATEGORIES.special.forEach(c => {
     html += `<div class="tree-node"><div class="tree-label">${c.icon} ${c.name}</div>
-      <div class="tree-handle">/${c.handle}</div></div>`;
+      <div class="tree-handle">/collections/${c.handle}</div>
+      <div class="tree-seo"><b>Title:</b> ${c.seoTitle}</div>
+      <div class="tree-seo"><b>H1:</b> ${c.seoH1}</div>
+      <div class="tree-seo"><b>Desc:</b> ${c.seoDesc}</div></div>`;
   });
   html += '</div>';
 
@@ -679,25 +732,17 @@ function renderSetupView() {
 
   // Menu structure
   html += `<div class="info-panel"><h3>Menu struktura (hlavni navigace)</h3>
-  <pre>Sportovni vyziva
-  +-- Pred treninkem          /collections/pred-treninkem
-  +-- Behem treninku           /collections/behem-treninku
-  |   +-- Gely                /collections/gely
-  |   +-- Napoje              /collections/napoje
-  |   +-- Mineraly            /collections/mineraly
-  +-- Po treninku              /collections/po-treninku
-  +-- Mezi treninky            /collections/mezi-treninky
-  |   +-- Proteiny            /collections/proteiny
-  |   +-- Aminokyseliny       /collections/aminokyseliny
-
-Znacky
-  +-- Enervit Sport            /collections/enervit-sport
-  +-- C2:1 PRO                 /collections/c2-1-pro
-  +-- Pure-PRO                 /collections/pure-pro
-
-Tycinky                        /collections/tycinky
-Novinky                        /collections/novinky
-Outlet                         /collections/outlet</pre></div>`;
+  <pre>PODLE TYPU (primarni)          PODLE FAZE (sekundarni)       ZNACKY (terciarni)
++-- Energeticke gely            +-- Pred treninkem            +-- Enervit Sport
++-- Energeticke tycinky         +-- Behem treninku            +-- C2:1 PRO
++-- Napoje & elektrolyty        +-- Po treninku               +-- Pure-PRO
++-- Aminokyseliny & kreatin     +-- Mezi treninky             +-- The Protein Deal
++-- Proteiny
++-- Regenerace                  SPECIALNI
++-- Mineraly & tablety          +-- Novinky
++-- Vitaminy & doplnky          +-- Outlet / Vyprodej
++-- Prislusenstvi               +-- Doping-free
++-- Sady & kity</pre></div>`;
 
   // Collection handles
   html += '<div class="info-panel"><h3>Vsechny collection handles</h3>';
