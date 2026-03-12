@@ -30,7 +30,7 @@ PODLE FÁZE                   PODLE TYPU                 ZNAČKY
 | Produkt | Typ | Enervit | C2:1 PRO |
 |---|---|---|---|
 | PRE Sport (2 príchute + kofein) | Pre-activity | ✅ | |
-| PRE-Workout Boost | Pre-activity | ✅ | |
+| PRE-Workout Boost | Pre-activity | | | ✅ (Pure-PRO) |
 | Carbo Flow (dóza) | Nápoj/mix | | ✅ |
 | Competition Bar (4 príchute) | Tyčinka | ✅ | |
 | Performance Bar (4 príchute + kreatin) | Tyčinka | ✅ | |
@@ -71,14 +71,14 @@ PODLE FÁZE                   PODLE TYPU                 ZNAČKY
 |---|---|---|---|
 | 100% Whey Protein (kakao, vanilka) | Proteín | | ✅ |
 | 100% Plant Protein (kakao) | Proteín | | ✅ |
-| BCAA 2:1:1 | Amino | ✅ | |
-| BCAA 4:1:1 | Amino | ✅ | |
-| BCAA Instant Drink | Amino | ✅ | |
-| EAA aminokyseliny (sáček, krabička) | Amino | ✅ | |
-| Creatine / Creatine Tabs | Kreatin | ✅ | |
-| L-Glutamin | Amino | ✅ | |
-| Protein Bar 26% (3 príchute) | Tyčinka | ✅ | |
-| Protein Bar 50% (3 príchute) | Tyčinka | ✅ | |
+| BCAA 2:1:1 | Amino | | ✅ |
+| BCAA 4:1:1 | Amino | | ✅ |
+| BCAA Instant Drink | Amino | | ✅ |
+| EAA aminokyseliny (sáček, krabička) | Amino | | ✅ |
+| Creatine / Creatine Tabs | Kreatin | | ✅ |
+| L-Glutamin | Amino | | ✅ |
+| Protein Bar 26% (3 príchute) | Tyčinka | | ✅ |
+| Protein Bar 50% (3 príchute) | Tyčinka | | ✅ |
 | Protein Deal (5 príchutí, 1ks + 3ks) | Tyčinka | ✅ | |
 
 ---

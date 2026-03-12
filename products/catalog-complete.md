@@ -11,9 +11,9 @@
 | Metrika | Hodnota |
 |---|---|
 | **Shopify produktov (master)** | ~44 |
-| Enervit Sport | ~34 |
+| Enervit Sport | ~22 |
 | C2:1 PRO | ~8 |
-| Pure-PRO | ~2 |
+| Pure-PRO | ~14 |
 
 ---
 
@@ -23,7 +23,7 @@
 |---|---|---|---|---|---|
 | 98534 | PRE Sport | Enervit | od 56 | Brusinka, Pomeranč, Mix (145 Kč / ~~171~~) | 1ks, 20ks (od 952 / ~~1 120~~) |
 | 98742 | PRE Sport s kofeinem | Enervit | 59 | — | 1ks |
-| 92778 | PRE-Workout Boost | Enervit | 1 140 | — | dóza |
+| 92778 | PRE-Workout Boost | Pure-PRO | 1 140 | — | dóza |
 | 98745 | Carbo Flow | C2:1 PRO | 679 | — | dóza 400g |
 | 99193a | Carbo Bar C2:1 | C2:1 PRO | od 67 | Bez příchuti, Brownie, Se sodíkem | 1ks |
 | 1128 | Competition Bar | Enervit | od 48 | Banán, Meruňka, Pomeranč, Červ. ovoce, Mix (163 / ~~192~~) | 1ks |
@@ -97,20 +97,20 @@
 
 | SKU | Shopify název | Rada | Cena (Kč) | Formát |
 |---|---|---|---|---|
-| 92730 | BCAA aminokyseliny (2:1:1) | Enervit | 489 | 120 tabliet |
-| 92773 | BCAA 4:1:1 aminokyseliny | Enervit | 690 | tablety |
-| 96301 | BCAA Instant Drink | Enervit | 879 | prášok |
-| 92774c | EAA esenciální aminokyseliny | Enervit | od 70 | Sáček 10g, 10x 10g |
-| 96952 | Creatine | Enervit | 599 | prášok |
-| 96940 | Creatine Tabs | Enervit | 409 | tablety |
-| 99020 | 100% L-Glutamin | Enervit | 975 | prášok |
+| 92730 | BCAA aminokyseliny (2:1:1) | Pure-PRO | 489 | 120 tabliet |
+| 92773 | BCAA 4:1:1 aminokyseliny | Pure-PRO | 690 | tablety |
+| 96301 | BCAA Instant Drink | Pure-PRO | 879 | prášok |
+| 92774c | EAA esenciální aminokyseliny | Pure-PRO | od 70 | Sáček 10g, 10x 10g |
+| 96952 | Creatine | Pure-PRO | 599 | prášok |
+| 96940 | Creatine Tabs | Pure-PRO | 409 | tablety |
+| 99020 | 100% L-Glutamin | Pure-PRO | 975 | prášok |
 
 ### Proteínové tyčinky (snack)
 
 | SKU | Shopify název | Rada | Cena (Kč) | Príchute |
 |---|---|---|---|---|
-| 99606M | Protein Bar 26% | Enervit | od 58 | Kokos+čoko, Tmavá čoko, Vanilka+jogurt |
-| 1127 | Protein Bar 50% | Enervit | od 59 | Bílá čoko, Slaný karamel, Tmavá čoko |
+| 99606M | Protein Bar 26% | Pure-PRO | od 58 | Kokos+čoko, Tmavá čoko, Vanilka+jogurt |
+| 1127 | Protein Bar 50% | Pure-PRO | od 59 | Bílá čoko, Slaný karamel, Tmavá čoko |
 | 9288D | Protein Deal | Enervit | od 69 | Brownie, Bílá čoko, Double choco, Karamel, Lísk. oříšek, Mix 5ks (293 / ~~345~~), 3ks (176 / ~~207~~) |
 
 ---
