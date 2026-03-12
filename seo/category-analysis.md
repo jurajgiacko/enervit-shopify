@@ -89,7 +89,7 @@ O značce Enervit | Kontakt | Doprava a platba | Obchodní podmínky | GDPR | B2
 
 | Filter | Metafield Key | Typ | Hodnoty | Zobrazenie |
 |--------|---------------|-----|---------|------------|
-| Produktová rada | `custom.product_line` | `single_line_text` | Enervit Sport, C2:1 PRO, Pure-PRO | Checkboxy |
+| Produktová rada | `custom.product_line` | `single_line_text` | Enervit Sport, C2:1 PRO, Pure-PRO, The Protein Deal | Checkboxy |
 | Typ produktu | `custom.product_type` | `single_line_text` | Gél, Tyčinka, Prášok, Tableta, Hotový nápoj, Želé, Shot, Kapsle | Checkboxy |
 | Aktivita | `custom.activity` | `list.single_line_text` | Běh, Cyklistika, Fitness, Trail, Triatlon, Plavání | Checkboxy |
 | Fáza tréningu | `custom.training_phase` | `list.single_line_text` | Před, Během, Po, Mezi tréninky | Checkboxy |
@@ -191,33 +191,33 @@ a triatlon. Dostupný v příchutích Mango, Lime, Orange. Doping-free certifika
 
 ## Cross-sell & Upsell mapa
 
-### Cross-sell (komplementárne — "Kupte také")
+> **Kompletná mapa (per-product):** viď `products/categories.md` — cross-sell a upsell pre všetkých ~49 produktov
 
-| Ak zákazník kupuje | Odporuč |
-|---|---|
-| Gél (akýkoľvek) | Elektrolyt/nápoj + tyčinka |
-| Tyčinku | Gél + nápoj |
-| Nápoj/elektrolyt | Gél + fľašu |
-| Proteín | BCAA + Creatine |
-| BCAA | Proteín + Glutamine |
-| Pred-tréningový produkt | Gél na tréning + recovery po |
+### Princípy cross-sell
 
-### Upsell (upgrade — "Zvažte lepší")
+1. **Fázový flow:** Před → Během → Po → Mezi (zákazník vždy potrebuje ďalšiu fázu)
+2. **Rovnaká rada:** C2:1 zákazníkovi ponúkaj C2:1, Enervit zákazníkovi Enervit
+3. **Komplementárny typ:** Gél + nápoj + tyčinka + príslušenstvo
+4. **Max 3–4 cross-sell produkty** na PDP
 
-| Z | Na | Dôvod |
+### Upsell sumár (Enervit → C2:1 PRO)
+
+| Z (Enervit) | Na (C2:1 PRO) | Argument |
 |---|---|---|
-| Enervit Gel | Carbo Gel C2:1 PRO | Profi verzia, lepšia absorpcia |
-| Enervit Gel 3-pack | Carbo Gel 12-pack | Lepšia cena za kus |
-| Competition Bar | Carbo Bar C2:1 PRO | Premium verzia |
-| Single kus | Variety Kit | Vyskúšaj viac príchutí |
-| Instant Sport Drink | Carbo Flow C2:1 | Vyšší výkon |
-| Whey Protein | 100% Whey Isolate | Čistejší, rýchlejšia absorpcia |
+| Enervit Gel | Carbo Gel C2:1 | 2:1 sacharidový pomer, rýchlejšia absorpcia |
+| Isotonic Drink | Isocarb C2:1 | Vyšší obsah sacharidov, pro formula |
+| Competition Bar | Carbo Bar C2:1 | Premium endurance tyčinka |
+| Enervit Láhev | Láhev C2:1 Elite | Pro-level fľaša |
+| BCAA 2:1:1 | BCAA 4:1:1 | Vyšší pomer leucínu |
+| Protein Bar 26% | Protein Bar 50% | Dvojnásobný obsah proteínu |
+| 1ks | Multi-pack (24ks) | Lepšia cena za kus |
 
-### Podľa fázy tréningu (tréningový set)
+### Tréningové sety (Shopify Bundles / content)
 
-| Set | Produkty | Poznámka |
+| Set | Produkty | Pre koho |
 |---|---|---|
-| **Běžecký balíček** | Carbo Gel + Instant Sport Drink + Recovery | Kompletný cyklus |
-| **Cyklo balíček** | Carbo Bar C2:1 + Carbo Gel C2:1 + Isocarb + Fľaša | Dlhé výjazdy |
-| **Fitness balíček** | Whey Isolate + BCAA + Creatine | Svalová hmota |
-| **Závodní balíček** | C2:1 Performance Kit | Všetko pre preteky |
+| **Běžecký balíček** | Carbo Gel C2:1 + Isocarb C2:1 + R2 Recovery | Maratónci, trail |
+| **Cyklo balíček** | Carbo Bar C2:1 + Carbo Gel C2:1 + Isocarb + C2:1 láhev | Dlhé výjazdy |
+| **Fitness balíček** | Whey Protein + BCAA + Creatine + Shaker | Svalová hmota |
+| **Závodní balíček** | C2:1 celá řada (sada) | Pro závodníci |
+| **Protein snack balíček** | Protein Deal Mix + Protein Bar 50% + Protein Bar 26% | Snack lovers |
