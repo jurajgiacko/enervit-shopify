@@ -1,79 +1,220 @@
-# Enervit – Kategórie & SEO analýza
+# Enervit CZ — Kategórie, navigácia & SEO
+
+> Referencia: enervit.com používa maticovú navigáciu — produkty sú prístupné cez **typ produktu** aj cez **brand**
+> Rovnaký princíp aplikujeme na enervit.cz
+
+---
 
 ## Strategické rozhodnutia
 
-- **3 produktové rady** musia byť vizuálne oddelené: Enervit / C2:1 / Pure Pro
+- **3 produktové rady** vizuálne oddelené: Enervit Sport / C2:1 PRO / Pure-PRO
 - **Obsahový web sa zlúči s e-shopom** → enervit.cz = e-shop
 - **B2C + B2B na jednej platforme**, rovnaký sortiment, odlišný ceník
-- **Inšpirácia:** enervit.com (Enervit Italia) – emócie, lifestyle
+- **Inšpirácia:** enervit.com — emócie, lifestyle, dual navigácia (typ + brand)
+- **Dual navigácia:** Produkt žije v kategórii podľa typu (gely) AJ v kolekcii podľa rady (C2:1 PRO)
 
-## Navrhovaná štruktúra kategórií
+---
+
+## Navigačná štruktúra (Shopify menu)
+
+### Hlavné menu (mega menu)
 
 ```
-enervit.cz/
-├── /gely/                    ← Energetické gely (všetky rady)
-├── /elektrolyty/             ← Iontové nápoje, tablety
-├── /tycinky/                 ← Energetické tyčinky
-├── /proteiny/                ← Pure Pro proteíny, BCAčka
-├── /napoje/                  ← Športové nápoje (prášky, hotové)
-├── /regeneracia/             ← Recovery produkty
-├── /doplnky/                 ← Shakery, fľaše, doplnky
-├── /outlet/                  ← Produkty pred expiráciou, výpredaj
-├── /c2-1/                    ← C2:1 PRO rada (kompletná)
-├── /pure-pro/                ← Pure Pro rada (kompletná)
-└── /novinky/                 ← Nové produkty
+SPORT                        ZNAČKY                    SPECIÁLNE
+├── Energetické gely         ├── Enervit Sport         ├── Novinky
+├── Energetické tyčinky      ├── C2:1 PRO              ├── Outlet / Výpredaj
+├── Nápoje & elektrolyty     └── Pure-PRO              ├── Variety Kity
+├── Aminokyseliny & BCAA                               └── Doping-free
+├── Proteíny                 PODLE FÁZE
+├── Regenerace               ├── Před tréninkem
+└── Doplňky & příslušenství  ├── Během tréninku
+                              ├── Po tréninku
+                              └── Mezi tréninky
 ```
 
-### Filtre (na každej kategórii)
+### Footer menu
+```
+O značce Enervit | Kontakt | Doprava a platba | Obchodní podmínky | GDPR | B2B registrace | Blog
+```
 
-| Filter | Hodnoty |
-|--------|---------|
-| Produktová rada | Enervit, C2:1, Pure Pro |
-| Typ produktu | Gél, Tyčinka, Prášok, Tableta, Hotový nápoj |
-| Aktivita | Beh, Cyklistika, Fitness, Trail, Triatlon |
-| Fáza | Pred tréningom, Počas tréningu, Po tréningu, Medzi tréningami |
-| Príchuť | Pomaranč, Citron, Čokoláda, Vanilka, ... |
-| Veľkosť balenia | Jednorazové, Balenie (6ks, 12ks, 24ks), Veľké balenie |
+---
+
+## Kompletná štruktúra kolekcií (Shopify collections)
+
+### A) Podľa typu produktu (hlavná navigácia)
+
+| Collection | Handle (URL) | Produkty | SEO Title | Meta Description |
+|---|---|---|---|---|
+| Energetické gely | `/collections/gely` | Enervit Gel, Liquid Gel, Competition Gel, Carbo Gel C2:1, Carbo Jelly, Carbo Chews | Energetické gely \| Enervit — Sportovní výživa | Energetické gely od Enervit a C2:1 PRO. Rychlá energie pro běžce a cyklisty. 10% sleva pro registrované. |
+| Energetické tyčinky | `/collections/tycinky` | Competition Bar, Performance Bar, Carbo Bar C2:1 | Energetické tyčinky \| Enervit | Sportovní tyčinky Enervit a C2:1 PRO. Energie na trénink i závod. |
+| Nápoje & elektrolyty | `/collections/napoje` | Instant Sport Drink, Isocarb, Carbo Flow C2:1, Carbo Tablets | Sportovní nápoje a elektrolyty \| Enervit | Izotoniké nápoje a elektrolyty pro hydrataci při sportu. |
+| Aminokyseliny & BCAA | `/collections/aminokyseliny` | BCAA 2:1:1, BCAA 4:1:1, Creatine, Glutamine, Instant Drink BCAA | Aminokyseliny a BCAA \| Enervit | BCAA, kreatin a glutamin pro sportovce. |
+| Proteíny | `/collections/proteiny` | 100% Whey Isolate, Whey Protein, Plant Protein | Proteíny \| Pure-PRO by Enervit | Prémiové proteíny Pure-PRO. Syrovátkový i rostlinný protein. |
+| Regenerace | `/collections/regenerace` | Recovery produkty, Magic Cherry | Regenerace po tréninku \| Enervit | Produkty pro zotavení po sportu. Recovery drinky a antioxidanty. |
+| Doplňky & příslušenství | `/collections/doplnky` | Fľaše, shakery, imunitná podpora | Sportovní doplňky \| Enervit | Sportovní lahve, šejkry a doplňky výživy. |
+
+### B) Podľa produktovej rady (brand kolekcie)
+
+| Collection | Handle | Popis | Produkty |
+|---|---|---|---|
+| **Enervit Sport** | `/collections/enervit-sport` | Kompletná rada klasickej športovej výživy | Všetky Enervit Sport produkty (#8–#23) |
+| **C2:1 PRO** | `/collections/c2-1-pro` | Premium endurance — 2:1 sacharidový pomer | Carbo Gel, Carbo Bar, Carbo Jelly, Carbo Chews, Carbo Tablets, Carbo Flow, Kit (#1–#7) |
+| **Pure-PRO** | `/collections/pure-pro` | Proteíny a aminokyseliny pre fitness | Whey Isolate, Whey, Plant Protein, BCAA Drink (#24–#28) |
+
+### C) Podľa fázy tréningu (occasion kolekcie)
+
+| Collection | Handle | Produkty |
+|---|---|---|
+| Před tréninkem | `/collections/pred-treninkem` | Pre Sport, Carbo Flow, tyčinky, gely |
+| Během tréninku | `/collections/behem-treninku` | Gely, Carbo Gel C2:1, elektrolyty, Carbo Chews |
+| Po tréninku | `/collections/po-treninku` | Recovery, proteíny, BCAA, Magic Cherry |
+| Mezi tréninky | `/collections/mezi-treninky` | Proteíny, BCAA, Creatine, Glutamine |
+
+### D) Špeciálne kolekcie
+
+| Collection | Handle | Pravidlá |
+|---|---|---|
+| Novinky | `/collections/novinky` | Tag: `new`, automaticky po 60 dní |
+| Outlet / Výpredaj | `/collections/outlet` | Produkty 60 dní pred expiráciou, staré balenia |
+| Doping-free | `/collections/doping-free` | Produkty s WADA certifikátom |
+| Variety Kity | `/collections/variety-kity` | Všetky variety packs a kity |
+| Bestsellery | `/collections/bestsellery` | Top 10 podľa predaja (manuálne) |
+
+---
+
+## Shopify Metafield schema (filtre)
+
+| Filter | Metafield Key | Typ | Hodnoty | Zobrazenie |
+|--------|---------------|-----|---------|------------|
+| Produktová rada | `custom.product_line` | `single_line_text` | Enervit Sport, C2:1 PRO, Pure-PRO | Checkboxy |
+| Typ produktu | `custom.product_type` | `single_line_text` | Gél, Tyčinka, Prášok, Tableta, Hotový nápoj, Želé, Shot, Kapsle | Checkboxy |
+| Aktivita | `custom.activity` | `list.single_line_text` | Běh, Cyklistika, Fitness, Trail, Triatlon, Plavání | Checkboxy |
+| Fáza tréningu | `custom.training_phase` | `list.single_line_text` | Před, Během, Po, Mezi tréninky | Checkboxy |
+| Príchuť | `option.flavor` | variant option | Mango, Lime, Orange, Lemon, Cola, Tropical, Cocoa, Vanilla, Cranberry... | Swatche (farebné) |
+| Veľkosť balenia | `option.size` | variant option | 1ks, 3ks, 6ks, 12ks, 24ks, Dóza, Kit | Dropdown |
+| Vlastnosti | `custom.features` | `list.single_line_text` | Doping-free, Vegan, Gluten-free, Lactose-free, S kofeínom, Bez kofeínu | Checkboxy |
+| Cena | `filter.price` | range | — | Range slider |
+| Dostupnosť | `filter.availability` | boolean | — | Toggle |
+
+### Indexovanie pravidlá
+
+| Typ stránky | INDEX? | Canonical |
+|---|---|---|
+| Hlavná kategória (`/collections/gely`) | ✅ INDEX | self |
+| Brand kolekcia (`/collections/c2-1-pro`) | ✅ INDEX | self |
+| Fázová kolekcia (`/collections/pred-treninkem`) | ✅ INDEX | self |
+| Filtrovaná URL (s parametrami) | ❌ NOINDEX | parent kolekcia |
+| Paginácia (`?page=2`) | ❌ NOINDEX | page 1 |
+| Variant URL | ❌ NOINDEX | master produkt |
+| Outlet | ✅ INDEX | self |
+
+---
 
 ## URL štruktúra
 
-| Stará URL (aktuálny e-shop) | Nová URL (Shopify) | Redirect |
-|------------------------------|---------------------|----------|
-| TODO — exportovať z aktuálneho e-shopu | TODO — navrhnúť | 301 |
-
-## SEO kľúčové slová
-
-TODO — Claude Code: keyword research pre:
-- enervit gely
-- sportovní výživa
-- energetické gely na běh
-- izotoniký nápoj
-- C2:1 pro cycling
-- proteinové koktejly
-- sportovní výživa eshop
-- enervit cena / enervit akce
-
-## Meta tagy — šablóna
-
+### Produkty
 ```
-Title: {Kategória} | Enervit – Sportovní výživa pro váš výkon
-Description: {Kategória} od Enervit. Sportovní výživa pro běžce, cyklisty a fitness nadšence. 10% sleva pro registrované. Doprava zdarma od X Kč.
+enervit.cz/products/{handle}
+```
+Príklady:
+- `enervit.cz/products/carbo-gel-c2-1-pro` (C2:1 gél)
+- `enervit.cz/products/competition-bar` (Enervit tyčinka)
+- `enervit.cz/products/100-whey-protein-isolate` (Pure-PRO proteín)
+
+### Kolekcie
+```
+enervit.cz/collections/{handle}
+```
+
+### 301 Redirecty
+| Stará URL (aktuálny e-shop) | Nová URL (Shopify) |
+|-----|-----|
+| TODO — exportovať z aktuálneho e-shopu | TODO — namapovať |
+
+---
+
+## SEO kľúčové slová (CZ trh)
+
+### Hlavné (vysoký objem)
+- sportovní výživa
+- energetické gely
+- enervit gely
+- enervit eshop / enervit obchod
+- izotoniký nápoj
+- proteinový prášek
+
+### Long-tail (nižší konkurencia, vysoký intent)
+- energetické gely na běh
+- sportovní výživa pro cyklisty
+- C2:1 gel enervit
+- enervit gel mango
+- BCAA pro sportovce
+- protein po tréninku
+- enervit cena / enervit akce / enervit sleva
+
+### Brand
+- enervit sport
+- enervit c2:1 pro
+- pure pro protein
+- enervit competition bar
+
+---
+
+## Meta tagy — šablóny
+
+### Kolekcie
+```
+Title: {Kategória} | Enervit — Sportovní výživa pro váš výkon
+Description: {Kategória} od Enervit. Sportovní výživa pro běžce, cyklisty a fitness nadšence. Registrujte se a získejte 10% slevu. Doprava zdarma od {X} Kč.
 H1: {Kategória}
 ```
 
-## Cross-sell logika (predáva sa spolu)
+### Produkty
+```
+Title: {Produkt} | {Rada} — Enervit (max 60 znakov)
+Description: {Produkt} od {Rada}. {Hlavný benefit}. {Cena} Kč. Doprava zdarma od {X} Kč.
+H1: {Produkt}
+```
 
-### Podľa fázy tréningu
-- **Pred:** gél/tyčinka (energia) + elektrolyt (hydratácia)
-- **Počas:** gél C2:1 + iontový nápoj
-- **Po:** recovery shake + proteín Pure Pro
+### LLM Description (pre AI search / GEO)
+Každý produkt bude mať `llmDesc` — popis v prirodzenom jazyku:
+```
+"Carbo Gel C2:1 PRO je prémiový energetický gel od Enervit s patentovaným poměrem sacharidů 2:1
+(maltodextrin:fruktóza) pro maximální absorpci energie během závodu. Ideální pro běh, cyklistiku
+a triatlon. Dostupný v příchutích Mango, Lime, Orange. Doping-free certifikace."
+```
 
-### Podľa aktivity
-- **Beh:** gely + elektrolyty + recovery
-- **Cyklistika:** gely C2:1 + tyčinky + nápoje
-- **Fitness:** proteíny Pure Pro + BCAčka + recovery
+---
 
-### Upsell (upgrade)
-- Enervit gél → C2:1 gél (profi verzia)
-- Jednorazové balenie → multipack (lepšia cena/ks)
-- Enervit elektrolyt → C2:1 elektrolyt
+## Cross-sell & Upsell mapa
+
+### Cross-sell (komplementárne — "Kupte také")
+
+| Ak zákazník kupuje | Odporuč |
+|---|---|
+| Gél (akýkoľvek) | Elektrolyt/nápoj + tyčinka |
+| Tyčinku | Gél + nápoj |
+| Nápoj/elektrolyt | Gél + fľašu |
+| Proteín | BCAA + Creatine |
+| BCAA | Proteín + Glutamine |
+| Pred-tréningový produkt | Gél na tréning + recovery po |
+
+### Upsell (upgrade — "Zvažte lepší")
+
+| Z | Na | Dôvod |
+|---|---|---|
+| Enervit Gel | Carbo Gel C2:1 PRO | Profi verzia, lepšia absorpcia |
+| Enervit Gel 3-pack | Carbo Gel 12-pack | Lepšia cena za kus |
+| Competition Bar | Carbo Bar C2:1 PRO | Premium verzia |
+| Single kus | Variety Kit | Vyskúšaj viac príchutí |
+| Instant Sport Drink | Carbo Flow C2:1 | Vyšší výkon |
+| Whey Protein | 100% Whey Isolate | Čistejší, rýchlejšia absorpcia |
+
+### Podľa fázy tréningu (tréningový set)
+
+| Set | Produkty | Poznámka |
+|---|---|---|
+| **Běžecký balíček** | Carbo Gel + Instant Sport Drink + Recovery | Kompletný cyklus |
+| **Cyklo balíček** | Carbo Bar C2:1 + Carbo Gel C2:1 + Isocarb + Fľaša | Dlhé výjazdy |
+| **Fitness balíček** | Whey Isolate + BCAA + Creatine | Svalová hmota |
+| **Závodní balíček** | C2:1 Performance Kit | Všetko pre preteky |
