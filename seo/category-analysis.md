@@ -62,6 +62,7 @@ O značce Enervit | Kontakt | Doprava a platba | Obchodní podmínky | GDPR | B2
 | **Enervit Sport** | `/collections/enervit-sport` | Kompletná rada klasickej športovej výživy | Všetky Enervit Sport produkty (#8–#23) |
 | **C2:1 PRO** | `/collections/c2-1-pro` | Premium endurance — 2:1 sacharidový pomer | Carbo Gel, Carbo Bar, Carbo Jelly, Carbo Chews, Carbo Tablets, Carbo Flow, Kit (#1–#7) |
 | **Pure-PRO** | `/collections/pure-pro` | Proteíny a aminokyseliny pre fitness | Whey Isolate, Whey, Plant Protein, BCAA Drink (#24–#28) |
+| **The Protein Deal** | `/collections/protein-deal` | Proteínové tyčinky — snack s vysokým obsahom bielkovín | Protein Deal (5 príchutí + mix) |
 
 ### C) Podľa fázy tréningu (occasion kolekcie)
 

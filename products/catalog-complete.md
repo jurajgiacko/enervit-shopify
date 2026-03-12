@@ -2,7 +2,7 @@
 
 > Zdroj: XML export (SKU, sklad) + eshop.enervit.cz (ceny)
 > Dátum: 2026-03-12
-> Rozhodnutia: Protein Deal = pod Enervit Sport | Combo sety = zrušiť | Nulový sklad = ponechať | Vitamíny = len Enervit branded
+> Rozhodnutia: Protein Deal = 4. samostatná rada | Combo sety = zrušiť | Nulový sklad = ponechať | Vitamíny = len Enervit branded
 
 ---
 
@@ -10,10 +10,13 @@
 
 | Metrika | Hodnota |
 |---|---|
-| **Shopify produktov (master)** | ~44 |
-| Enervit Sport | ~22 |
+| **Shopify produktov (master)** | ~49 |
+| Enervit Sport | ~18 |
 | C2:1 PRO | ~8 |
-| Pure-PRO | ~14 |
+| Pure-PRO | ~12 |
+| **The Protein Deal** | ~6 (5 príchutí + mix) |
+| Vitamíny & doplnky | 4 |
+| Príslušenstvo | 4 |
 
 ---
 
@@ -111,7 +114,9 @@
 |---|---|---|---|---|
 | 99606M | Protein Bar 26% | Pure-PRO | od 58 | Kokos+čoko, Tmavá čoko, Vanilka+jogurt |
 | 1127 | Protein Bar 50% | Pure-PRO | od 59 | Bílá čoko, Slaný karamel, Tmavá čoko |
-| 9288D | Protein Deal | Enervit | od 69 | Brownie, Bílá čoko, Double choco, Karamel, Lísk. oříšek, Mix 5ks (293 / ~~345~~), 3ks (176 / ~~207~~) |
+| 9288D | **Protein Deal** | **The Protein Deal** | od 69 | Brownie, Bílá čoko, Double choco, Karamel, Lísk. oříšek, Mix 5ks (293 / ~~345~~), 3ks (176 / ~~207~~) |
+
+> **Protein Deal = 6 samostatných Shopify produktov** (každá príchuť = vlastný produkt s vlastným vizuálom). Varianta balenie: 1ks, 3ks. Mix pack = samostatný produkt (3ks, 5ks).
 
 ---
 

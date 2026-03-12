@@ -15,8 +15,8 @@
 PODLE TYPU (primární)        PODLE FÁZE (sekundární)    ZNAČKY (terciární)
 ├── Gely & želé (7)          ├── Před tréninkem (8)     ├── Enervit Sport
 ├── Tyčinky (7)              ├── Během tréninku (18)    ├── C2:1 PRO
-├── Nápoje (5)               ├── Po tréninku (3)        └── Pure-PRO
-├── Aminokyseliny (6)        └── Mezi tréninky (9)
+├── Nápoje (5)               ├── Po tréninku (3)        ├── Pure-PRO
+├── Aminokyseliny (6)        └── Mezi tréninky (9)      └── The Protein Deal
 ├── Proteíny (2)                                        SPECIÁLNÍ
 ├── Regenerácia (3)                                     ├── Novinky
 ├── Minerály (4)                                        ├── Outlet
