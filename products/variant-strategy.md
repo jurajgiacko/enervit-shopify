@@ -2,6 +2,7 @@
 
 > Dátum: 12.3.2026
 > Definuje: kedy použiť varianty vs. samostatné produkty + Shopify filtre
+> **Update:** Mix príchutí + krabičky/boxy = samostatné Shopify produkty (nemáme stovky SKU, grid unesie 69 produktov)
 
 ---
 
@@ -9,152 +10,151 @@
 
 | Stratégia | Kedy použiť | Shopify dopad |
 |---|---|---|
-| **1 produkt, varianty** | Rovnaký obal/design, líši sa len príchuť alebo veľkosť. Zákazník si vyberá na PDP. | Menej produktov v gride, prehľadnejšie |
-| **Samostatné produkty** | Vizuálne odlišné obaly, zákazník chce vidieť každý v gride. Rôzne fotky, rôzny "feel". | Viac produktov v gride, lepší vizuálny dojem |
-| **Mix/Variety pack** | Samostatný produkt s variant = veľkosť (3ks, 5ks, 24ks) | Cross-sell z jednotlivých príchutí |
+| **1 produkt, príchute ako varianty** | Rovnaký obal/design, líši sa len príchuť. Zákazník si vyberá na PDP. | Príchute = swatche na PDP |
+| **Samostatné produkty** | Vizuálne odlišné obaly ALEBO iný formát (kofeín, sodík). Mix packy. Krabičky/boxy. | Vlastný grid card, vlastné fotky |
+| **Mix/Variety pack** | Vždy samostatný produkt — zákazník musí vidieť v gride | Cross-sell z jednotlivých príchutí |
+| **Krabička/Box** | Vždy samostatný produkt — B2B zákazníci musia nájsť v gride | Iný cenový bod, iná fotka |
 
 ---
 
-## Kompletná mapa: produkt → varianty
+## Kompletná mapa: produkt → varianty (69 Shopify produktov)
 
-### PŘED TRÉNINKEM
+> Mix príchutí = samostatný produkt | Krabička/box = samostatný produkt
+> Varianty = len príchute v rámci jedného formátu
 
-| Shopify produkt | Variant Option 1 | Variant Option 2 | Stratégia | Dôvod |
+### PŘED TRÉNINKEM (13 produktov)
+
+| # | Shopify produkt | Varianty (príchute) | Stratégia | Dôvod |
 |---|---|---|---|---|
-| PRE Sport | Príchuť: Brusinka, Pomeranč | Balenie: 1ks, 20ks | Varianty | Rovnaký produkt, len príchuť |
-| PRE Sport s kofeinem | — | — | Samostatný | Funkčne odlišný (kofeín) |
-| PRE-Workout Boost | — | — | Samostatný | Jediný produkt, dóza |
-| Carbo Flow | — | — | Samostatný | Jediný produkt, dóza |
-| Carbo Bar C2:1 | Varianta: Bez příchuti, Brownie, Se sodíkem | — | Varianty | Rovnaký design rady C2:1 |
-| Competition Bar | Príchuť: Banán, Meruňka, Pomeranč, Červ. ovoce | — | Varianty | Rovnaký obal |
-| Competition Bar Mix | Balenie: 5ks | — | Samostatný variant v rámci Competition Bar | Upsell |
-| Performance Bar | Príchuť: Citron, Jablko, Kakao, Tmavá čoko | — | Varianty | Rovnaký obal |
-| Performance Bar Mix | Balenie: 5ks | — | Samostatný variant v rámci Performance Bar | Upsell |
-| Performance Bar s kreatinem | — | — | Samostatný | Funkčne odlišný |
+| 1 | PRE Sport | Brusinka, Pomeranč | Príchute ako varianty | Rovnaký obal |
+| 2 | PRE Sport - mix příchutí | — | **Samostatný** | Mix pack |
+| 3 | PRE Sport - krabička 20ks | Brusinka, Pomeranč | **Samostatný** | Box, iný cenový bod |
+| 4 | PRE Sport s kofeinem | — | **Samostatný** | Funkčne odlišný |
+| 5 | PRE-Workout Boost | — | Samostatný | Dóza |
+| 6 | Carbo Flow | — | Samostatný | Dóza |
+| 7 | Carbo Bar C2:1 | Bez příchuti, Brownie | Príchute ako varianty | Rovnaký obal |
+| 8 | Carbo Bar C2:1 se sodíkem | — | **Samostatný** | Funkčne odlišný |
+| 9 | Competition Bar | Banán, Meruňka, Pomeranč, Červ. ovoce | Príchute ako varianty | Rovnaký obal |
+| 10 | Competition Bar - mix příchutí | — | **Samostatný** | Mix pack |
+| 11 | Performance Bar | Citron, Jablko, Kakao, Tmavá čoko | Príchute ako varianty | Rovnaký obal |
+| 12 | Performance Bar - mix příchutí | — | **Samostatný** | Mix pack |
+| 13 | Performance Bar s kreatinem | — | **Samostatný** | Funkčne odlišný |
 
-### BĚHEM TRÉNINKU — Gely
+### BĚHEM TRÉNINKU — Gely (16 produktov)
 
-| Shopify produkt | Variant Option 1 | Variant Option 2 | Stratégia | Dôvod |
+| # | Shopify produkt | Varianty (príchute) | Stratégia | Dôvod |
 |---|---|---|---|---|
-| **Enervit Gel** | Príchuť: Citron, Cola, Pomeranč, Tropic | Balenie: 1ks, 24ks | Varianty | Rovnaký obal, len farba príchute |
-| Enervit Gel Mix | — | Balenie: 24ks | Variant v rámci Enervit Gel | Mix pack |
-| Gel s kofeinem | Príchuť: Citrus, Malina | Balenie: 1ks, 24ks | Varianty | Rovnaký koncept |
-| Isotonic Gel s kofeinem | — | — | Samostatný | Iný formát (isotonic) |
-| **Liquid Gel** | Príchuť: Citron, Pomeranč | Balenie: 1ks, 18ks | Varianty | Rovnaký obal |
-| Liquid Gel Mix | — | Balenie: 18ks | Variant v rámci Liquid Gel | Mix pack |
-| Liquid Gel Competition s kofeinem | — | Balenie: 1ks, 18ks | Samostatný | Funkčne odlišný (kofeín) |
-| **Carbo Gel C2:1** | Príchuť: Limetka, Mango, Pomeranč | — | Varianty | Jednotný C2:1 design |
-| Carbo Gel C2:1 s kofeinem | — | — | Samostatný | Funkčne odlišný |
-| Carbo Gel C2:1 se sodíkem | — | — | Samostatný | Funkčne odlišný |
-| Carbo Jelly C2:1 | — | — | Samostatný | Iný formát (želé) |
-| Carbo Chews C2:1 | — | — | Samostatný | Iný formát (žuvačky) |
+| 14 | **Enervit Gel** | Citron, Cola, Pomeranč, Tropic | Príchute ako varianty | Rovnaký obal |
+| 15 | Enervit Gel - mix příchutí | — | **Samostatný** | Mix pack |
+| 16 | **Enervit Gel - krabička 24ks** | Citron, Cola, Pomeranč, Tropic, Mix | **Samostatný** | Box, B2B |
+| 17 | Gel s kofeinem | Citrus, Malina | Príchute ako varianty | Rovnaký obal |
+| 18 | Gel s kofeinem - krabička 24ks | Citrus, Malina | **Samostatný** | Box, B2B |
+| 19 | Isotonic Gel s kofeinem | — | Samostatný | Iný formát |
+| 20 | **Liquid Gel** | Citron, Pomeranč | Príchute ako varianty | Rovnaký obal |
+| 21 | Liquid Gel - mix příchutí | — | **Samostatný** | Mix pack |
+| 22 | **Liquid Gel - krabička 18ks** | Citron, Pomeranč, Mix | **Samostatný** | Box, B2B |
+| 23 | Liquid Gel Competition s kofeinem | Citrus | Samostatný | Funkčne odlišný |
+| 24 | Liquid Gel Competition - krabička 18ks | Citrus | **Samostatný** | Box, B2B |
+| 25 | **Carbo Gel C2:1** | Limetka, Mango, Pomeranč | Príchute ako varianty | C2:1 design |
+| 26 | Carbo Gel C2:1 s kofeinem | — | **Samostatný** | Funkčne odlišný |
+| 27 | Carbo Gel C2:1 se sodíkem | — | **Samostatný** | Funkčne odlišný |
+| 28 | Carbo Jelly C2:1 | — | Samostatný | Iný formát |
+| 29 | Carbo Chews C2:1 | — | Samostatný | Iný formát |
 
-### BĚHEM TRÉNINKU — Nápoje & elektrolyty
+### BĚHEM TRÉNINKU — Nápoje (7 produktov)
 
-| Shopify produkt | Variant Option 1 | Variant Option 2 | Stratégia | Dôvod |
+| # | Shopify produkt | Varianty | Stratégia | Dôvod |
 |---|---|---|---|---|
-| **Isotonic Drink** | Príchuť: Citron, Pomeranč | Balenie: 300g, 420g, 10kg | Varianty | Rovnaký produkt |
-| Isotonic Drink Mix | — | Balenie: 4ks krabice | Variant v rámci Isotonic Drink | Bulk |
-| **Isocarb C2:1** | — | Balenie: Sáček 65g, Dóza 650g | Varianty | Len veľkosť |
-| Sport Drink | — | Balenie: Sáček 16g, 10x 16g | Varianty | Len veľkosť |
-| Electrolytes Boost | — | Balenie: Sáček 4g, 16x 4g | Varianty | Len veľkosť |
+| 30 | **Isotonic Drink** | Citron, Pomeranč × 300g, 420g, 10kg | Príchuť × veľkosť | Rovnaký produkt |
+| 31 | Isotonic Drink - mix příchutí | — | **Samostatný** | Mix pack |
+| 32 | Isotonic Drink - krabice 4ks | Citron, Pomeranč | **Samostatný** | Box, B2B |
+| 33 | **Isocarb C2:1** | Sáček 65g, Dóza 650g | Veľkosť ako varianty | Len veľkosť |
+| 34 | Sport Drink | Sáček 16g, 10x 16g | Veľkosť ako varianty | Len veľkosť |
+| 35 | Electrolytes Boost | Sáček 4g, 16x 4g | Veľkosť ako varianty | Len veľkosť |
 
-### BĚHEM TRÉNINKU — Tablety & minerály
+### BĚHEM TRÉNINKU — Tablety, minerály, tyčinky (6 produktov)
 
-| Shopify produkt | Variant Option 1 | Variant Option 2 | Stratégia | Dôvod |
+| # | Shopify produkt | Varianty | Stratégia | Dôvod |
 |---|---|---|---|---|
-| **Carbo Tablets** | — | Balenie: 4ks, 12ks, 24ks, 100x4ks | Varianty | Len veľkosť |
-| Salt Caps | — | — | Samostatný | Jediný variant |
-| Magnesium Sport | — | Balenie: Sáček 15g, 10x 15g | Varianty | Len veľkosť |
+| 36 | **Carbo Tablets** | 4ks, 12ks, 24ks, 100x4ks | Veľkosť ako varianty | Len veľkosť |
+| 37 | Salt Caps | — | Samostatný | Jediný variant |
+| 38 | Magnesium Sport | Sáček 15g, 10x 15g | Veľkosť ako varianty | Len veľkosť |
+| 39 | Power Crunchy Bar | Brownie+čoko, Cookie, Karamel, Čokoláda | Príchute ako varianty | Rovnaký obal |
+| 40 | Power Crunchy Bar - mix příchutí | — | **Samostatný** | Mix pack |
 
-### BĚHEM TRÉNINKU — Tyčinky
+### PO TRÉNINKU (3 produkty)
 
-| Shopify produkt | Variant Option 1 | Variant Option 2 | Stratégia | Dôvod |
+| # | Shopify produkt | Varianty | Stratégia | Dôvod |
 |---|---|---|---|---|
-| Power Crunchy Bar | Príchuť: Brownie+čoko, Cookie, Karamel, Čokoláda | — | Varianty | Rovnaký obal |
-| Power Crunchy Bar Mix | — | Balenie: 24ks | Variant v rámci Power Crunchy Bar | Mix pack |
+| 41 | After Sport Drink (R1) | Sáček 15g, 10x 15g | Veľkosť ako varianty | Len veľkosť |
+| 42 | R2 Recovery Drink | Sáček 50g, Dóza 400g | Veľkosť ako varianty | Len veľkosť |
+| 43 | Magic Cherry | Sáček 9g, 10x 9g | Veľkosť ako varianty | Len veľkosť |
 
-### PO TRÉNINKU
+### MEZI TRÉNINKY — Proteíny (2)
 
-| Shopify produkt | Variant Option 1 | Variant Option 2 | Stratégia | Dôvod |
+| # | Shopify produkt | Varianty | Stratégia | Dôvod |
 |---|---|---|---|---|
-| After Sport Drink (R1) | — | Balenie: Sáček 15g, 10x 15g | Varianty | Len veľkosť |
-| R2 Recovery Drink | — | Balenie: Sáček 50g, Dóza 400g | Varianty | Len veľkosť |
-| Magic Cherry | — | Balenie: Sáček 9g, 10x 9g | Varianty | Len veľkosť |
+| 44 | 100% Whey Protein | Kakao, Vanilka | Príchute ako varianty | Rovnaký produkt |
+| 45 | 100% Plant Protein | — | Samostatný | Len 1 príchuť |
 
-### MEZI TRÉNINKY — Proteíny
+### MEZI TRÉNINKY — Aminokyseliny & kreatin (7)
 
-| Shopify produkt | Variant Option 1 | Variant Option 2 | Stratégia | Dôvod |
+| # | Shopify produkt | Varianty | Stratégia | Dôvod |
 |---|---|---|---|---|
-| 100% Whey Protein | Príchuť: Kakao, Vanilka | — | Varianty | Rovnaký produkt |
-| 100% Plant Protein | — | — | Samostatný | Len 1 príchuť |
+| 46 | BCAA 2:1:1 | — | Samostatný | Jediný variant |
+| 47 | BCAA 4:1:1 | — | Samostatný | Jediný variant |
+| 48 | BCAA Instant Drink | — | Samostatný | Jediný variant |
+| 49 | EAA aminokyseliny | Sáček 10g, 10x 10g | Veľkosť ako varianty | Len veľkosť |
+| 50 | Creatine | — | Samostatný | Prášok |
+| 51 | Creatine Tabs | — | Samostatný | Tablety |
+| 52 | 100% L-Glutamin | — | Samostatný | Prášok |
 
-### MEZI TRÉNINKY — Aminokyseliny & kreatin
+### MEZI TRÉNINKY — Proteínové tyčinky (8)
 
-| Shopify produkt | Variant Option 1 | Variant Option 2 | Stratégia | Dôvod |
+| # | Shopify produkt | Varianty | Stratégia | Dôvod |
 |---|---|---|---|---|
-| BCAA 2:1:1 | — | — | Samostatný | Jediný variant |
-| BCAA 4:1:1 | — | — | Samostatný | Jediný variant |
-| BCAA Instant Drink | — | — | Samostatný | Jediný variant |
-| EAA aminokyseliny | — | Balenie: Sáček 10g, 10x 10g | Varianty | Len veľkosť |
-| Creatine | — | — | Samostatný | Prášok |
-| Creatine Tabs | — | — | Samostatný | Tablety (iný formát) |
-| 100% L-Glutamin | — | — | Samostatný | Jediný variant |
+| 53 | Protein Bar 26% | Kokos+čoko, Tmavá čoko, Vanilka+jogurt | Príchute ako varianty | Rovnaký obal |
+| 54 | Protein Bar 50% | Bílá čoko, Slaný karamel, Tmavá čoko | Príchute ako varianty | Rovnaký obal |
+| 55 | **Protein Deal Brownie** | 1ks, 3ks | **Samostatný** | Vizuálne odlišný obal |
+| 56 | **Protein Deal Bílá čoko** | 1ks, 3ks | **Samostatný** | Vizuálne odlišný obal |
+| 57 | **Protein Deal Double choco** | 1ks, 3ks | **Samostatný** | Vizuálne odlišný obal |
+| 58 | **Protein Deal Karamel** | 1ks, 3ks | **Samostatný** | Vizuálne odlišný obal |
+| 59 | **Protein Deal Lísk. oříšek** | 1ks, 3ks | **Samostatný** | Vizuálne odlišný obal |
+| 60 | **Protein Deal Mix** | 3ks, 5ks | **Samostatný** | Variety pack |
 
-### MEZI TRÉNINKY — Proteínové tyčinky
+### VITAMÍNY & DOPLNKY (4)
 
-| Shopify produkt | Variant Option 1 | Variant Option 2 | Stratégia | Dôvod |
-|---|---|---|---|---|
-| Protein Bar 26% | Príchuť: Kokos+čoko, Tmavá čoko, Vanilka+jogurt | — | Varianty | Rovnaký obal Pure-PRO |
-| Protein Bar 50% | Príchuť: Bílá čoko, Slaný karamel, Tmavá čoko | — | Varianty | Rovnaký obal Pure-PRO |
-| **Protein Deal Brownie** | — | Balenie: 1ks, 3ks | **Samostatný** | Vizuálne odlišný obal |
-| **Protein Deal Bílá čoko** | — | Balenie: 1ks, 3ks | **Samostatný** | Vizuálne odlišný obal |
-| **Protein Deal Double choco** | — | Balenie: 1ks, 3ks | **Samostatný** | Vizuálne odlišný obal |
-| **Protein Deal Karamel** | — | Balenie: 1ks, 3ks | **Samostatný** | Vizuálne odlišný obal |
-| **Protein Deal Lísk. oříšek** | — | Balenie: 1ks, 3ks | **Samostatný** | Vizuálne odlišný obal |
-| **Protein Deal Mix** | — | Balenie: 3ks, 5ks | **Samostatný** | Variety pack |
+| # | Shopify produkt | Varianty | Stratégia |
+|---|---|---|---|
+| 61 | Multivitamin | — | Samostatný |
+| 62 | Vitamin C 1000 mg | — | Samostatný |
+| 63 | Ferro (železo) | — | Samostatný |
+| 64 | Maltodextrin Fructose | — | Samostatný |
 
-> **Protein Deal = 6 samostatných Shopify produktov** (5 príchutí + 1 mix pack)
-> Každý má vlastnú fotku, vlastný PDP. Vizuálne odlišné obaly, farebne odlišené.
+### PRÍSLUŠENSTVO & SADY (5)
 
-### VITAMÍNY & DOPLNKY
-
-| Shopify produkt | Variant Option 1 | Variant Option 2 | Stratégia | Dôvod |
-|---|---|---|---|---|
-| Multivitamin | — | — | Samostatný | Jediný variant |
-| Vitamin C 1000 mg | — | — | Samostatný | Jediný variant |
-| Ferro (železo) | — | — | Samostatný | Jediný variant |
-| Maltodextrin Fructose | — | — | Samostatný | Jediný variant |
-
-### PRÍSLUŠENSTVO
-
-| Shopify produkt | Variant Option 1 | Variant Option 2 | Stratégia | Dôvod |
-|---|---|---|---|---|
-| Enervit Láhev | — | Veľkosť: 0,5l, 0,7l, 1l | Varianty | Rovnaký produkt |
-| Láhev C2:1 Elite | — | — | Samostatný | C2:1 branding |
-| Shaker 0,7l | — | — | Samostatný | Jediný variant |
-| Nosič na lahve | — | — | Samostatný | Jediný variant |
-
-### SADY
-
-| Shopify produkt | Variant Option 1 | Variant Option 2 | Stratégia | Dôvod |
-|---|---|---|---|---|
-| C2:1 PRO celá řada | — | — | Samostatný | Bundle/kit |
+| # | Shopify produkt | Varianty | Stratégia |
+|---|---|---|---|
+| 65 | Enervit Láhev | 0,5l, 0,7l, 1l | Veľkosť ako varianty |
+| 66 | Láhev C2:1 Elite | — | Samostatný |
+| 67 | Shaker 0,7l | — | Samostatný |
+| 68 | Nosič na lahve | — | Samostatný |
+| 69 | C2:1 PRO celá řada | — | Samostatný (kit) |
 
 ---
 
-## Súhrn: Shopify produkty po úprave
+## Súhrn: Shopify produkty
 
 | Metrika | Hodnota |
 |---|---|
-| **Celkom Shopify produktov** | ~49 |
-| Enervit Sport | ~18 |
-| C2:1 PRO | ~8 |
-| Pure-PRO | ~12 |
-| **The Protein Deal** | ~6 (5 príchutí + mix) |
+| **Celkom Shopify produktov** | **69** |
+| Enervit Sport | 38 |
+| C2:1 PRO | 9 |
+| Pure-PRO | 12 |
+| The Protein Deal | 6 |
 | Vitamíny & doplnky | 4 |
-| Príslušenstvo | 4 |
-| Sady | 1 |
+
+> + 3 merch produkty (ručník, čelenka, pásek) — zvážiť = potenciálne 72
 
 ---
 
@@ -162,10 +162,10 @@
 
 | Rada | Handle | Farba | Popis | Počet |
 |---|---|---|---|---|
-| **Enervit Sport** | `enervit-sport` | #2563b3 (modrá) | Klasická športová výživa — gely, tyčinky, nápoje, recovery | ~18 |
-| **C2:1 PRO** | `c2-1-pro` | #dc2626 (červená) | Premium endurance — patentovaný 2:1 sacharidový pomer | ~8 |
-| **Pure-PRO** | `pure-pro` | #16a34a (zelená) | Proteíny, aminokyseliny, kreatin — fitness & svalová regenerácia | ~12 |
-| **The Protein Deal** | `protein-deal` | #f59e0b (oranžová/zlatá) | Proteínové tyčinky — snack s vysokým obsahom bielkovín | ~6 |
+| **Enervit Sport** | `enervit-sport` | #2563b3 (modrá) | Klasická športová výživa — gely, tyčinky, nápoje, recovery + mix packy + krabičky | 38 |
+| **C2:1 PRO** | `c2-1-pro` | #dc2626 (červená) | Premium endurance — patentovaný 2:1 sacharidový pomer | 9 |
+| **Pure-PRO** | `pure-pro` | #16a34a (zelená) | Proteíny, aminokyseliny, kreatin — fitness & svalová regenerácia | 12 |
+| **The Protein Deal** | `protein-deal` | #f59e0b (oranžová/zlatá) | Proteínové tyčinky — snack s vysokým obsahom bielkovín | 6 |
 
 ---
 
@@ -187,6 +187,7 @@
 | **Tréningová fáza** | `custom.training_phase` | `custom.training_phase` | `list.single_line_text` | Před tréninkem, Během tréninku, Po tréninku, Mezi tréninky | Typové kolekcie |
 | **Vlastnosti** | `custom.features` | `custom.features` | `list.single_line_text` | S kofeinem, Vegan, Bez lepku, Bez laktózy, Doping-free | Všetky |
 | **Aktivita** | `custom.activity` | `custom.activity` | `list.single_line_text` | Běh, Cyklistika, Triatlon, Fitness, Trail, Plavání | Všetky |
+| **Typ balení** | `custom.pack_type` | `custom.pack_type` | `single_line_text` | Jednotlivě, Mix příchutí, Krabička/Box, Sada | Všetky |
 
 ### Variant option filtre
 

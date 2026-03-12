@@ -3,7 +3,7 @@
 > **Primárne rozdelenie: podľa typu produktu** (Gely, Tyčinky, Nápoje, Amino, Proteíny…)
 > Sekundárne: **podľa tréningovej fázy** (Before → During → After → Between)
 > Terciárne: **podľa brandu** (Enervit Sport / C2:1 PRO / Pure-PRO)
-> Dáta z reálneho XML exportu (155 produktov, ~44 Shopify produktov)
+> Dáta z reálneho XML exportu (72 enabled produktov → **69 Shopify produktov**)
 >
 > **Validácia navigácie (12.3.2026):** Analýza 8 konkurenčných značiek (Nutrend, Nduranz, SiS, MyProtein, GU Energy Labs, Maurten, enervit.com) — 100% zhoda: všetky používajú Product Type ako primárnu navigáciu.
 
@@ -13,10 +13,14 @@
 
 ```
 PODLE TYPU (primární)        PODLE FÁZE (sekundární)    ZNAČKY (terciární)
-├── Gely & želé (7)          ├── Před tréninkem (8)     ├── Enervit Sport
-├── Tyčinky (7)              ├── Během tréninku (18)    ├── C2:1 PRO
-├── Nápoje (5)               ├── Po tréninku (3)        ├── Pure-PRO
-├── Aminokyseliny (6)        └── Mezi tréninky (9)      └── The Protein Deal
+├── Gely & želé (16)         ├── Před tréninkem (13)    ├── Enervit Sport (38)
+├── Tyčinky (10)             ├── Během tréninku (29)    ├── C2:1 PRO (9)
+├── Nápoje (7)               ├── Po tréninku (3)        ├── Pure-PRO (12)
+├── Aminokyseliny (7)        └── Mezi tréninky (20)     └── The Protein Deal (6)
+├── Proteíny (2)                                        SPECIÁLNÍ
+├── Regenerácia (3)                                     ├── Novinky
+├── Vitamíny (4)                                        ├── Outlet
+└── Příslušenství (5)                                   └── Sady & kity
 ├── Proteíny (2)                                        SPECIÁLNÍ
 ├── Regenerácia (3)                                     ├── Novinky
 ├── Minerály (4)                                        ├── Outlet
