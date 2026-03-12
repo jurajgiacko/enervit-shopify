@@ -402,19 +402,8 @@ function renderSidebar() {
   const el = document.getElementById('sidebar-tree');
   let html = '';
 
-  // Phase
-  html += '<div class="cat-group"><div class="cat-group-title">Podle faze</div>';
-  CATEGORIES.phase.forEach(c => {
-    const cnt = getProductCountForCategory('phase', c.id);
-    const active = sidebarFilter && sidebarFilter.group === 'phase' && sidebarFilter.id === c.id ? ' active' : '';
-    html += `<div class="cat-item${active}" onclick="toggleSidebar('phase','${c.id}')">
-      <span class="cat-label-flex"><span class="cat-icon">${c.icon}</span><span class="cat-label-text">${c.name}</span></span>
-      <span class="count">${cnt}</span></div>`;
-  });
-  html += '</div>';
-
-  // Type
-  html += '<div class="cat-group"><div class="cat-group-title">Podle typu</div>';
+  // Type (PRIMARY)
+  html += '<div class="cat-group"><div class="cat-group-title">Podle typu (primarni)</div>';
   CATEGORIES.type.forEach(c => {
     const cnt = getProductCountForCategory('type', c.id);
     const active = sidebarFilter && sidebarFilter.group === 'type' && sidebarFilter.id === c.id ? ' active' : '';
@@ -424,8 +413,19 @@ function renderSidebar() {
   });
   html += '</div>';
 
-  // Brand
-  html += '<div class="cat-group"><div class="cat-group-title">Znacky</div>';
+  // Phase (SECONDARY)
+  html += '<div class="cat-group"><div class="cat-group-title">Podle faze (sekundarni)</div>';
+  CATEGORIES.phase.forEach(c => {
+    const cnt = getProductCountForCategory('phase', c.id);
+    const active = sidebarFilter && sidebarFilter.group === 'phase' && sidebarFilter.id === c.id ? ' active' : '';
+    html += `<div class="cat-item${active}" onclick="toggleSidebar('phase','${c.id}')">
+      <span class="cat-label-flex"><span class="cat-icon">${c.icon}</span><span class="cat-label-text">${c.name}</span></span>
+      <span class="count">${cnt}</span></div>`;
+  });
+  html += '</div>';
+
+  // Brand (TERTIARY)
+  html += '<div class="cat-group"><div class="cat-group-title">Znacky (terciarni)</div>';
   CATEGORIES.brand.forEach(c => {
     const cnt = getProductCountForCategory('brand', c.id);
     const active = sidebarFilter && sidebarFilter.group === 'brand' && sidebarFilter.id === c.id ? ' active' : '';
